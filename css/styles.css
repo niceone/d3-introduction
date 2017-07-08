@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 40px;
+	font-family: "Raleway", sans-serif;
+	font-size: 13px;
+}
+
+p {
+	font-family: "Merriweather", serif;
+	font-size: 1.1em;
+	line-height: 1.6em;
+}
+
+p#info {
+	width: 600px;
+	margin-bottom: 60px;
+}
+
+
+
+#chart {
+	padding: 10px;
+	width: 315px;
+	height: 100px;
+	background-color: #f6f6f6;
+	margin-bottom: 20px;
+}
+
+#dataset {
+	padding: 10px;
+	width: 315px;
+	background-color: #f6f6f6;
+	margin-bottom: 20px;
+	font-family: "Inconsolata", sans-serif;
+}
+
+.bar {
+  width: 25px;
+  margin-right: 5px;
+  background-color: #C1ADC4;
+  float: left;
+  cursor: pointer;
+  }
+
+ .bar:last-child {
+ 	margin-right: 0;
+ }
+
+ .bar:hover {
+ 	background-color: #927A94;
+ }
+
+ button {
+ 	cursor: pointer;
+ }
